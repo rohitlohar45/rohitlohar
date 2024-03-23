@@ -17,10 +17,6 @@ export default function ThemeSwitch(props: ThemeSwitchProps) {
     setTheme(resolvedTheme === "dark" ? "light" : "dark");
   };
 
-  useEffect(() => {
-    console.log(mounted, theme, resolvedTheme);
-  }, []);
-
   return (
     <button
       type="button"
