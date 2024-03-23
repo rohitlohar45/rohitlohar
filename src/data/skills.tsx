@@ -6,12 +6,7 @@ import {
   SiNextdotjs,
   SiFlask,
 } from "react-icons/si";
-import {
-  FramerMotionIcon,
-  GithubIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/Icons";
+import { GithubIcon, ReactRouterDomIcon } from "@/components/Icons";
 import { SkillPillProps } from "@/components/Skills";
 
 export const LANGUAGES: SkillPillProps[] = [

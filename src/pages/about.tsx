@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { NextSeo } from "next-seo";
-import FadeRight from "@/animation/FadeRight";
 import FadeUp from "@/animation/FadeUp";
 import { AnimatePresence } from "framer-motion";
 import ShowCaseList from "@/components/ShowCaseList";
@@ -60,14 +59,15 @@ export default function About() {
         <div className="sm:1/2 mt-10 w-full lg:w-1/2">
           <AnimatePresence>
             <FadeUp key="title-greeting" duration={0.6}>
-              <h1 className="text-6xl font-bold">Hi, I'm Rohit Lohar</h1>
+              <h1 className="text-6xl font-bold">Hi, I&apos;m Rohit Lohar</h1>
             </FadeUp>
             <FadeUp key="description-1" duration={0.6} delay={0.2}>
               <p className="mt-8 text-lg font-medium">
-                I'm a passionate React and Backend Developer with a knack for
-                turning vision into reality with code. Whether I'm crafting
-                frontend components or architecting backend systems, I bring a
-                commitment to excellence and problem-solving to every project.
+                I&apos;m a passionate React and Backend Developer with a knack
+                for turning vision into reality with code. Whether I&apos;m
+                crafting frontend components or architecting backend systems, I
+                bring a commitment to excellence and problem-solving to every
+                project.
               </p>
             </FadeUp>
             <FadeUp key="description-2" duration={0.6} delay={0.4}>

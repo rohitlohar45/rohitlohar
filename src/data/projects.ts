@@ -1,13 +1,17 @@
 import { ProjectCardProps } from "@/components/ProjectCard";
 import { ProjectShowcaseListProps } from "@/components/ProjectShowcaseList";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListProps[] = [
   {
     index: 0,
     title: "DistCache",
     href: "/projects",
-    tags: ["Go", "Distributed Systems", "Consistent Hashing", "Fault Tolerance"],
+    tags: [
+      "Go",
+      "Distributed Systems",
+      "Consistent Hashing",
+      "Fault Tolerance",
+    ],
     image: {
       LIGHT: "/images/projects/distcache.webp",
       DARK: "/images/projects/distcache.webp",
@@ -48,7 +52,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "DistCache",
     favicon: "/icons/project.ico",
-    imageUrl: ["/images/projects/distcache.webp", "/images/projects/distcache.webp"],
+    imageUrl: [
+      "/images/projects/distcache.webp",
+      "/images/projects/distcache.webp",
+    ],
     description:
       "DistCache is a distributed caching library for Go applications, providing fault tolerance and scalability. It uses consistent hashing to distribute data evenly across cache nodes, ensuring high availability and load balancing.",
     sourceCodeHref: "https://github.com/rohitlohar45/distcache",

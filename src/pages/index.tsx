@@ -1,5 +1,4 @@
 import dynamic from "next/dynamic";
-import Head from "next/head";
 import { NextSeo } from "next-seo";
 import CursorTrailCanvas from "@/components/CursorTrailCanvas";
 import Hero from "@/components/Hero";
