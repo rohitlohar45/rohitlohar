@@ -15,7 +15,7 @@ export const ACHIEVEMENTS: TShowCaseListDetatils[] = [
     `,
   },
   {
-    title: "Published Paper: Polygon-Based Procurement in the Healthcare Supply Chain",
+    title: "Published Paper: Polygon Based Procurement in the Healthcare Supply Chain",
     organisation: {
       name: "International Journal of Research Publication and Reviews (IJRPR)",
       href: "https://example.com",
