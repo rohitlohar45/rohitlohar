@@ -1,4 +1,4 @@
-import { ContactForm } from "@/components/ContactForm";
+// import { ContactForm } from "@/components/ContactForm";
 import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/Icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 import { motion } from "framer-motion";
@@ -11,7 +11,7 @@ export default function Footer() {
       transition={{ duration: 0.6 }}
       className="flex flex-col items-center justify-center gap-6 bg-gradient-to-b from-teal-500 to-teal-600 px-6 py-8 sm:px-8 sm:py-12 lg:px-12"
     >
-      <div className="max-w-3xl text-center">
+      {/* <div className="max-w-3xl text-center">
         <h2 className="mb-2 text-xl font-bold text-white sm:mb-4 sm:text-2xl lg:text-3xl">
           Get in Touch
         </h2>
@@ -24,7 +24,7 @@ export default function Footer() {
           {siteMetadata.email}
         </a>
         <ContactForm />
-      </div>
+      </div> */}
       <div className="flex items-center justify-center gap-6">
         <motion.a
           href={siteMetadata.github}

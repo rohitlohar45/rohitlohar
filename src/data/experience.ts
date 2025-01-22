@@ -2,12 +2,30 @@ import { TShowCaseListDetatils } from "@/components/ShowCaseList";
 
 export const EXPERIENCE: TShowCaseListDetatils[] = [
   {
-    title: "SDE Intern",
+    title: "Software Engineer",
+    organisation: {
+      name: "Lumeneo.ai",
+      href: "#",
+    },
+    date: "Nov 2024 - Present",
+    location: "Remote",
+    description: `
+      Architected and implemented frontend architecture using React and Vite, achieving significant
+      performance optimization in production builds. Engineered containerized applications using Docker, implementing best practices for image opti
+      mization and deployment efficiency. Integrated FFmpeg with WebAssembly (WASM)forclient-side video processing, enabling cross
+      browser compatibility. Developed interactive data visualizations using D3.js and Recharts, improving user engagement
+      and data interpretation. Designed and implemented a Golang backend service for RTSP stream processing and HLS
+      delivery. Engineered a full-duplex WebSocket service with Golang and Kafka integration for real-time data
+      processing
+    `,
+  },
+  {
+    title: "SDE",
     organisation: {
       name: "Diamanti",
       href: "https://diamanti.com/",
     },
-    date: "Oct 2023 - Present",
+    date: "Oct 2023 - Oct 2024",
     location: "Remote",
     description: `
       Proficient in deploying, managing, and scaling applications using Kubernetes orchestration.
